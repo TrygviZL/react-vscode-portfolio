@@ -2,87 +2,71 @@
 
 ## Summary
 
-Senior Software Developer specializing in web application development. Experienced with all stages of the development cycle for dynamic web projects. Well-versed in numerous programming languages including C# .NET, Python and JavaScript/TypeScript. Strong background in both accounting/auditing and software development. Mitigated the gap between end users and developers, co-designed and built scalable solutions.
-
+Data Engineer with a Software Engineering mindset and experience within cloud and pharma.
+As more and more companies move towards being data-centric, the need for organized and accessible data is ever increasing. With my experience within pharma, AWS, data engineering and software development, I have the toolkit to solve even the most tricky challenges.
 
 ## Experience
 
-**Software Developer** @ [Ernst & Young](https://www.ey.com/) _(Nov 2018 - Nov 2021)_
-
-Completed full lifecycle application development to enterprise business applications including requirement analysis, system design, development, unit testing, implementation, testing support, performance tuning, maintenance, and post-production support.
-- Detailed achievements:
-  - Collaborated with colleagues from worldwide to implement the Disaster Recovery Project. Completed ahead of the original schedule and saved budget up to 30%.
-  - Optimized deployment process and reduced manual work to accelerate product deployment by over 70%.
-  - Delivered virtual and live classroom training for employees(the cumulative number of trainees exceeded 500).
-- _**Technologies used:**_ C#, MSSQL, Python, React.js
+**Data Engineer** @ [H. Lundbeck A/S](https://www.lundbeck.com) _(Aug 2020 - Current)_
+As a Data Platform Engineer I am responsible for maintaining data tooling and infrastructure to suppor the business in their data needs. 
+Technologies: Snowflake, dbt, Snowflake, Terraform, Typescript
 
 &nbsp;
 
-**Staff Auditor** @ [Deloitte & Touche](https://www2.deloitte.com/global/en.html) _(July 2017 - Nov 2018)_
-
-Planned and conducted operational and ﬁnancial audits to conﬁrm ﬁnancial statements are fairly presented in alignment with IFRS.
-- Detailed achievements:
-  - Delivered internal audit projects for major clients in the manufacturing industry with a focus on gap assessments/reviews of business processes and internal control.
-  - Supervised assigned auditing staffs to evaluate performance and maintain standards.
+**Data Engineering Graduate** @ [H. Lundbeck A/S](https://www.lundbeck.com) _(Sep 2020 - Aug 2022)_
+Graduate at the Business Intelligence and Advanced Analytics department in a role as a Cloud Data Engineer.
+As a data engineer, my primary responsibilities are:
+- Architecting and development of data platform on AWS 
+- Creating CI/CD pipeline for deploying AWS infrastructure using GitHub Actions and AWS CDK
+- Defining, creating, maintaining and monitoring of data pipelines
+- Training and deploying ML/statistical models
+- Ad-Hoc data analysis to solve usecases in pharmaceutical manufacturing for root-cause analysis and process optimization
+- Developing IoT solutions for manufacturing usecases
+Technologies: S3, Lambda, Kinesis, Athena, StepFunctions, CDK, SQS, IoT-Core, Snowflake
 
 &nbsp;
 
-**Audit Intern** @ [KPMG](https://home.kpmg/) _(July 2015 - July 2015)_
-
-Performed analytical procedures and analyses to detect unusual ﬁnancial relationships.
+**Bioinformatician / Computational Biology** @ [H. Lundbeck A/S](https://www.lundbeck.com) _(Mar 2020 - Sep 2020)_
+Supporting early drug development using data analysis and modelling methods. I was tasked with developing mechanistic and stochastic models to simulate the interaction between drug and target to predict predict future results and gain additional insight from experiments. My tasks include:
+- Mathematical modelling using ODEs and Stochastic Models (Monte Carlo Simulation) to simulate drug-target interaction
+- Analysis and prediction of experimental results
+- Support planning of clinical studies based on data-analysis and simulation)
 
 ## Education
 
-`2021-2022` [National Taipei University of Technology](https://www-en.ntut.edu.tw/)
-- **Extension program** in Computer Science, Electrical Engineering, and Electronic Engineering
-- Courses: Computer Organization, Discrete Mathematics, Computer Program-
-ming(I), Object-Oriented Programming, Probability, Digital Logic Design
-- GPA: 4.0/4.0
+`202-2022` [Technical University of Denmark](https://www.dtu.dk)
+- **Focus areas:** Mathematical modelling and data analysis with focus on medical and biological applications. Topics include programming, fluid mechanics, mass transport, signal processing, statistics and machine learning.
+- **Thesis** (Grade 12/12): Local coupling of dopamine neaurons. Project was in collaboration with the Danish pharmaceutical company H. Lundbeck A/S and was aimed a investigating the mechanism of dopamine in coupling and synchronization of neurons in the midbrain. 
 
-`2021-2022` [National Taiwan Normal University](https://en.ntnu.edu.tw/)
-- **Extension program** in Electrical Engineering
-- Courses: Operating Systems
-- GPA: 4.3/4.3
-
-`2020–2022` [Fu Jen Catholic University](https://www.fju.edu.tw/indexEN.jsp)
-- **Extension program** in Software Engineering and Digital Innovation Applications, and Information Management 
-- Courses: Algorithms, Linear Algebra, Database Administration
-- GPA: 4.0/4.0
-
-`2020-2021` [National Taipei University of Business](https://www.ntub.edu.tw/index.php?Lang=en)
-- **Extension program** in Information Management 
-- Courses: Data Structures
-- GPA: 4.0/4.0
-
-`2012-2016` [National Cheng Kung University](https://www.ncku.edu.tw/index.php?Lang=en)
-- **B.B.A** in Accountancy
-- GPA: 3.88/4.0
+`2014–2017` [Techincal University of Denmark](https://www.dtu.dk)
+- This study is a joint programme run by the Technical University of Denmark (DTU) and the University of Copenhagen (KU). This study includes combines courses within biology and pathology with classical engineering courses such as electronics, signal analysis, and material science.
+- **Thesis** (Grade 12/12): Cell-on-a-Disc: A Centrifugal microfludic platform for perfusion cell culture. Project was continued by a PhD student and published in [American Chemical Society](https://pubs.acs.org/doi/abs/10.1021/acs.analchem.0c02582)
 
 ## Skills
 
-### General Tech Stacks
-- Architecture Design
-- Desktop App Development
-- Web Development (Frontend & Backend)
+### Methodologies and Methods
+- Dimensional Modelling (Kimball & Ross)
 
 ### Programming languages
-- C# .NET
 - Python
 - JavaScript/TypeScript
-  - React.js
-- T-SQL
-- Go
-- C++
-- Java
-- VB.NET/VBA
+- SQL
+- R
 
-## Certificates
-- Certified Public Accountant (Taiwan)
+### Technologies and Tools
+- Data stack
+  - Snowflake
+  - dbt
+  - Hightouch
+  - Dagster
+- Git
+- GitHub + Actions
+- Jira
+- Infrastructure as Code
+  - Terraform
+  - CloudFormation
+  - AWS CDK
+- QlikSense
 
-## Accomplishments
-**Won First Place** @ [EY Innovation Campaign](https://www.ey.com/) _(May 2021)_
-Built Trial Balance System, a system that streamlines data transmission across users, providing consistent, reliable financial reports to them. 
-
-## Languages
-**English**: C1
-**Chinese**: Native
+### AWS
+s3, Lambda, RDS, Athena, Stepfunctions, Kinesis + Firehose, IoT-Core, DynamoDB, API Gateway

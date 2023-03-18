@@ -1,32 +1,28 @@
 # 💻 Skills
 
-## General Tech Stacks
-- Architecture Design
-- Desktop App Development
-- Web Development (Frontend & Backend)
+## Methodologies and Methods
+- Dimensional Modelling (Kimball & Ross)
 
 ## Programming languages
-- C# .NET
 - Python
 - JavaScript/TypeScript
-  - React.js
-- T-SQL
-- Go
-- C++
-- Java
-- VB.NET/VBA
+- SQL
+- R
 
-## Databases
-- MSSQL
-- PostgreSQL
-- MySQL
-- SQLite
-
-## Cloud
-- Azure
-- GCP
-- Heroku
-- Render
-
-## Vcs
+## Technologies and Tools
+- Data stack
+  - Snowflake
+  - dbt
+  - Hightouch
+  - Dagster
 - Git
+- GitHub + Actions
+- Jira
+- Infrastructure as Code
+  - Terraform
+  - CloudFormation
+  - AWS CDK
+- QlikSense
+
+## AWS
+s3, Lambda, RDS, Athena, Stepfunctions, Kinesis + Firehose, IoT-Core, DynamoDB, API Gateway
