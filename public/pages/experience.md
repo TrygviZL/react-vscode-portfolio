@@ -1,25 +1,34 @@
 # 👨‍💻 Experience
 
-**Software Developer** @ [Ernst & Young](https://www.ey.com/) _(Nov 2018 - Nov 2021)_
+**Data Engineer** @ [H. Lundbeck A/S](https://www.lundbeck.com) _(Aug 2020 - Current)_
 
-Completed full lifecycle application development to enterprise business applications including requirement analysis, system design, development, unit testing, implementation, testing support, performance tuning, maintenance, and post-production support.
-- Detailed achievements:
-  - Collaborated with colleagues from worldwide to implement the Disaster Recovery Project. Completed ahead of the original schedule and saved budget up to 30%.
-  - Optimized deployment process and reduced manual work to accelerate product deployment by over 70%.
-  - Delivered virtual and live classroom training for employees(the cumulative number of trainees exceeded 500).
-- _**Technologies used:**_ C#, MSSQL, Python, React.js
+As a Data Platform Engineer I am responsible for maintaining data tooling and infrastructure to suppor the business in their data needs. 
+Technologies: Snowflake, dbt, Snowflake, Terraform, Typescript
 
 &nbsp;
 
-**Staff Auditor** @ [Deloitte & Touche](https://www2.deloitte.com/global/en.html) _(July 2017 - Nov 2018)_
+**Data Engineering Graduate** @ [H. Lundbeck A/S](https://www.lundbeck.com) _(Sep 2020 - Aug 2022)_
 
-Planned and conducted operational and ﬁnancial audits to conﬁrm ﬁnancial statements are fairly presented in alignment with IFRS.
-- Detailed achievements:
-  - Delivered internal audit projects for major clients in the manufacturing industry with a focus on gap assessments/reviews of business processes and internal control.
-  - Supervised assigned auditing staffs to evaluate performance and maintain standards.
+Graduate at the Business Intelligence and Advanced Analytics department in a role as a Cloud Data Engineer.
+As a data engineer, my primary responsibilities are:
+- Architecting and development of data platform on AWS 
+- Creating CI/CD pipeline for deploying AWS infrastructure using GitHub Actions and AWS CDK
+- Defining, creating, maintaining and monitoring of data pipelines
+- Training and deploying ML/statistical models
+- Ad-Hoc data analysis to solve usecases in pharmaceutical manufacturing for root-cause analysis and process optimization
+- Developing IoT solutions for manufacturing usecases
+Technologies: S3, Lambda, Kinesis, Athena, StepFunctions, CDK, SQS, IoT-Core, Snowflake
 
 &nbsp;
 
-**Audit Intern** @ [KPMG](https://home.kpmg/) _(July 2015 - July 2015)_
+**Bioinformatician / Computational Biology** @ [H. Lundbeck A/S](https://www.lundbeck.com) _(Mar 2020 - Sep 2020)_
 
-Performed analytical procedures and analyses to detect unusual ﬁnancial relationships.
+Supporting early drug development using data analysis and modelling methods. I was tasked with developing mechanistic and stochastic models to simulate the interaction between drug and target to predict predict future results and gain additional insight from experiments. My tasks include:
+- Mathematical modelling using ODEs and Stochastic Models (Monte Carlo Simulation) to simulate drug-target interaction
+- Analysis and prediction of experimental results
+- Support planning of clinical studies based on data-analysis and simulation)
+
+&nbsp;
+**Graduate Research Assistant** @ [Technical University of Denmark](https://dtu.dk/) _(Nov 2018 - Dec 2019)_
+
+Part time research assistant at DTU Compute in collaboration with DTU HealthTech (Previously Nanotech). I worked with mathematical modelling and numerical simulations where we used mathematics to get a better understanding of the phenomena we observed in the laboratory.)

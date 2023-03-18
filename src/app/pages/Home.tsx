@@ -8,7 +8,7 @@ import {
   Typography,
 } from "@mui/material";
 import React, { useEffect } from "react";
-import logo from "../../static/favicon.png";
+import logo from "../../static/favicon.jpg";
 import { useLocation } from "react-router-dom";
 import { links } from "./links";
 
@@ -38,21 +38,21 @@ export default function Home({ setSelectedIndex }: Props) {
       <Grid item xs={3}>
         <Stack direction={{ xs: "column", sm: "row-reverse" }} spacing={2}>
           <Box display="flex" sx={{ justifyContent: "center" }}>
-            <img src={logo} width="100px" alt="logo" />
+            <img style={{ borderRadius:"50%" }} src={logo} width="200px" alt="logo" />
           </Box>
           <Box>
             <Grid
               display="flex"
               justifyContent={{ xs: "center", sm: "flex-start" }}
             >
-              <Typography variant="h3">{process.env.REACT_APP_NAME}</Typography>
+              <Typography variant="h3">Trygvi Z. Laksafoss</Typography>
             </Grid>
             <Grid
               display="flex"
               justifyContent={{ xs: "center", sm: "flex-start" }}
             >
               <Typography variant="subtitle1" gutterBottom>
-                Always difficult, always beautiful
+                All thing data and cloud
                 {/* Better an{' '}
                 <Box fontWeight="fontWeightMedium" display="inline">
                   oops

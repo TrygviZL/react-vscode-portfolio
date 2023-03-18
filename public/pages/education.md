@@ -1,28 +1,9 @@
 # 👨‍🎓 Education
-`2022-present` [RWTH Aachen University](https://www.rwth-aachen.de/)
-- **M.Sc.** in Software Systems Engineering
 
-`2021-2022` [National Taipei University of Technology](https://www-en.ntut.edu.tw/)
-- **Extension program** in Computer Science, Electrical Engineering, and Electronic Engineering
-- Courses: Computer Organization, Discrete Mathematics, Computer Program-
-ming(I), Object-Oriented Programming, Probability, Digital Logic Design
-- GPA: 4.0/4.0
+`202-2022` [Technical University of Denmark](https://www.dtu.dk)
+- **Focus areas:** Mathematical modelling and data analysis with focus on medical and biological applications. Topics include programming, fluid mechanics, mass transport, signal processing, statistics and machine learning.
+- **Thesis** (Grade 12/12): Local coupling of dopamine neaurons. Project was in collaboration with the Danish pharmaceutical company H. Lundbeck A/S and was aimed a investigating the mechanism of dopamine in coupling and synchronization of neurons in the midbrain. 
 
-`2021-2022` [National Taiwan Normal University](https://en.ntnu.edu.tw/)
-- **Extension program** in Electrical Engineering
-- Courses: Operating Systems
-- GPA: 4.3/4.3
-
-`2020–2022` [Fu Jen Catholic University](https://www.fju.edu.tw/indexEN.jsp)
-- **Extension program** in Software Engineering and Digital Innovation Applications, and Information Management 
-- Courses: Algorithms, Linear Algebra, Database Administration
-- GPA: 4.0/4.0
-
-`2020-2021` [National Taipei University of Business](https://www.ntub.edu.tw/index.php?Lang=en)
-- **Extension program** in Information Management 
-- Courses: Data Structures
-- GPA: 4.0/4.0
-
-`2012-2016` [National Cheng Kung University](https://www.ncku.edu.tw/index.php?Lang=en)
-- **B.B.A** in Accountancy
-- GPA: 3.88/4.0
+`2014–2017` [Techincal University of Denmark](https://www.dtu.dk)
+- This study is a joint programme run by the Technical University of Denmark (DTU) and the University of Copenhagen (KU). This study includes combines courses within biology and pathology with classical engineering courses such as electronics, signal analysis, and material science.
+- **Thesis** (Grade 12/12): Cell-on-a-Disc: A Centrifugal microfludic platform for perfusion cell culture. Project was continued by a PhD student and published in [American Chemical Society](https://pubs.acs.org/doi/abs/10.1021/acs.analchem.0c02582)

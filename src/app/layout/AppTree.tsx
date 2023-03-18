@@ -74,17 +74,50 @@ export default function AppTree({
       defaultCollapseIcon={<ExpandMoreIcon />}
       defaultExpandIcon={<ChevronRightIcon />}
       sx={{ minWidth: 220 }}
-      defaultExpanded={["-1"]}
-
+      defaultExpanded={["-1","-2"]}
       // sx={{ height: 240, flexGrow: 1, maxWidth: 400, overflowY: 'auto' }}
     >
       <TreeItem
         nodeId="-1"
-        label="Home"
+        label="About"
         color="#bdc3cf"
         onClick={() => {
           navigate("/");
           setSelectedIndex(-1);
+        }}
+      >
+        {pages.map(({ index, name, route }) => (
+          <TreeItem
+            key={index}
+            nodeId={index.toString()}
+            label={name}
+            sx={{
+              color: renderTreeItemColor(index),
+              backgroundColor: renderTreeItemBgColor(index),
+              "&& .Mui-selected": {
+                backgroundColor: renderTreeItemBgColor(index),
+              },
+            }}
+            icon={<VscMarkdown color="#6997d5" />}
+            onClick={() => {
+              if (!visiblePageIndexs.includes(index)) {
+                const newIndexs = [...visiblePageIndexs, index];
+                setVisiblePageIndexs(newIndexs);
+              }
+              navigate(route);
+              setSelectedIndex(index);
+              setCurrentComponent("tree");
+            }}
+          />
+        ))}
+      </TreeItem>
+      <TreeItem
+        nodeId="-2"
+        label="Blog Posts"
+        color="#bdc3cf"
+        onClick={() => {
+          navigate("/");
+          setSelectedIndex(-2);
         }}
       >
         {pages.map(({ index, name, route }) => (
