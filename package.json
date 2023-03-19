@@ -64,13 +64,6 @@
   "devDependencies": {
     "@types/webpack-env": "^1.17.0",
     "@typescript-eslint/eslint-plugin": "^5.55.0",
-    "eslint": "^8.36.0",
-    "eslint-config-react-app": "^7.0.1",
-    "eslint-config-standard-with-typescript": "^34.0.1",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-n": "^15.6.1",
-    "eslint-plugin-promise": "^6.1.1",
-    "eslint-plugin-react": "^7.32.2",
     "gh-pages": "^4.0.0",
     "typescript": "^3.2.1"
   }
