@@ -5,26 +5,27 @@ import {
   Link,
   Stack,
   Tooltip,
-  Typography,
-} from "@mui/material";
-import React, { useEffect } from "react";
-import logo from "../../static/favicon.jpg";
-import { useLocation } from "react-router-dom";
-import { links } from "./links";
+  Typography
+} from '@mui/material'
+import { type ReactElement, useEffect } from 'react'
+import logo from '../../static/favicon.jpg'
+import { useLocation } from 'react-router-dom'
+import { links } from './links'
 
 interface Props {
-  setSelectedIndex: React.Dispatch<React.SetStateAction<number>>;
+  setSelectedIndex: React.Dispatch<React.SetStateAction<number>>
 }
 
-export default function Home({ setSelectedIndex }: Props) {
-  const { pathname } = useLocation();
+export default function Home ({ setSelectedIndex }: Props): ReactElement {
+  const { pathname } = useLocation()
   useEffect(() => {
-    setSelectedIndex(-1);
-  }, [setSelectedIndex]);
+    setSelectedIndex(-1)
+  }, [setSelectedIndex])
 
   useEffect(() => {
-    document.title = process.env.REACT_APP_NAME!;
-  }, [pathname]);
+    // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+    document.title = process.env.REACT_APP_NAME!
+  }, [pathname])
 
   return (
     <Grid
@@ -33,23 +34,23 @@ export default function Home({ setSelectedIndex }: Props) {
       direction="column"
       alignItems="center"
       justifyContent="center"
-      sx={{ minHeight: `calc(100vh - 20px - 33px)` }}
+      sx={{ minHeight: 'calc(100vh - 20px - 33px)' }}
     >
       <Grid item xs={3}>
-        <Stack direction={{ xs: "column", sm: "row-reverse" }} spacing={2}>
-          <Box display="flex" sx={{ justifyContent: "center" }}>
-            <img style={{ borderRadius:"50%" }} src={logo} width="200px" alt="logo" />
+        <Stack direction={{ xs: 'column', sm: 'row-reverse' }} spacing={2}>
+          <Box display="flex" sx={{ justifyContent: 'center' }}>
+            <img style={{ borderRadius: '50%' }} src={logo} width="200px" alt="logo" />
           </Box>
           <Box>
             <Grid
               display="flex"
-              justifyContent={{ xs: "center", sm: "flex-start" }}
+              justifyContent={{ xs: 'center', sm: 'flex-start' }}
             >
               <Typography variant="h3">Trygvi Z. Laksafoss</Typography>
             </Grid>
             <Grid
               display="flex"
-              justifyContent={{ xs: "center", sm: "flex-start" }}
+              justifyContent={{ xs: 'center', sm: 'flex-start' }}
             >
               <Typography variant="subtitle1" gutterBottom>
                 All thing data and cloud
@@ -65,7 +66,7 @@ export default function Home({ setSelectedIndex }: Props) {
             </Grid>
             <Grid
               display="flex"
-              justifyContent={{ xs: "center", sm: "flex-start" }}
+              justifyContent={{ xs: 'center', sm: 'flex-start' }}
             >
               <Stack direction="row" spacing={0.4}>
                 {links.map((link) => (
@@ -86,5 +87,5 @@ export default function Home({ setSelectedIndex }: Props) {
         </Stack>
       </Grid>
     </Grid>
-  );
+  )
 }

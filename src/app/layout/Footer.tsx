@@ -1,36 +1,37 @@
-import { Box, Grid, Link, Paper, Stack, Typography } from "@mui/material";
+import { Box, Grid, Link, Paper, Stack, Typography } from '@mui/material'
 import {
   VscRemote,
   VscError,
   VscWarning,
   VscBell,
   VscFeedback,
-  VscCheck,
-} from "react-icons/vsc";
-import { IoIosGitBranch } from "react-icons/io";
+  VscCheck
+} from 'react-icons/vsc'
+import { IoIosGitBranch } from 'react-icons/io'
+import { type ReactElement } from 'react'
 
-export default function Footer() {
+export default function Footer (): ReactElement {
   return (
     <Box
       component={Paper}
       square
       elevation={0}
       // sx={{ height: '3vh' }}
-      sx={{ height: "20px", color: "white" }}
+      sx={{ height: '20px', color: 'white' }}
       display="flex"
     >
       <Grid container>
         <Grid
           item
           sx={{
-            width: "35px",
-            backgroundColor: "#2E8461",
-            justifyContent: "center",
-            alignItems: "center",
-            cursor: "pointer",
-            "&:hover": {
-              background: "#329171",
-            },
+            width: '35px',
+            backgroundColor: '#2E8461',
+            justifyContent: 'center',
+            alignItems: 'center',
+            cursor: 'pointer',
+            '&:hover': {
+              background: '#329171'
+            }
           }}
           display="flex"
         >
@@ -38,7 +39,7 @@ export default function Footer() {
         </Grid>
         <Grid
           item
-          sx={{ backgroundColor: "#3279CB", width: "200px" }}
+          sx={{ backgroundColor: '#3279CB', width: '200px' }}
           display="flex"
         >
           <Stack direction="row" spacing={0.5} sx={{ pl: 1 }}>
@@ -58,16 +59,16 @@ export default function Footer() {
               display="flex"
               sx={{
                 px: 0.5,
-                justifyContent: "center",
-                alignItems: "center",
+                justifyContent: 'center',
+                alignItems: 'center',
                 // cursor: "pointer",
-                "&:hover": {
-                  background: "#1f8ad2",
-                },
+                '&:hover': {
+                  background: '#1f8ad2'
+                }
               }}
             >
               <IoIosGitBranch fontSize="0.9rem" />
-              <Typography sx={{ ml: 0.5, mt: 0.1, fontSize: "0.6rem" }}>
+              <Typography sx={{ ml: 0.5, mt: 0.1, fontSize: '0.6rem' }}>
                 main
               </Typography>
             </Box>
@@ -80,18 +81,18 @@ export default function Footer() {
               spacing={0.5}
               sx={{
                 px: 0.5,
-                cursor: "pointer",
-                "&:hover": {
-                  background: "#1f8ad2",
-                },
+                cursor: 'pointer',
+                '&:hover': {
+                  background: '#1f8ad2'
+                }
               }}
             >
               <Box
                 display="flex"
                 sx={{
-                  justifyContent: "center",
-                  alignItems: "center",
-                  py: 0.3,
+                  justifyContent: 'center',
+                  alignItems: 'center',
+                  py: 0.3
                 }}
               >
                 <VscError fontSize="0.9rem" />
@@ -99,20 +100,20 @@ export default function Footer() {
               <Box
                 display="flex"
                 sx={{
-                  justifyContent: "center",
-                  alignItems: "center",
-                  pt: 0.3,
+                  justifyContent: 'center',
+                  alignItems: 'center',
+                  pt: 0.3
                 }}
               >
-                <Typography sx={{ fontSize: "0.6rem" }}>0</Typography>
+                <Typography sx={{ fontSize: '0.6rem' }}>0</Typography>
               </Box>
 
               <Box
                 display="flex"
                 sx={{
-                  justifyContent: "center",
-                  alignItems: "center",
-                  py: 0.3,
+                  justifyContent: 'center',
+                  alignItems: 'center',
+                  py: 0.3
                 }}
               >
                 <VscWarning fontSize="0.9rem" />
@@ -120,12 +121,12 @@ export default function Footer() {
               <Box
                 display="flex"
                 sx={{
-                  justifyContent: "center",
-                  alignItems: "center",
-                  pt: 0.3,
+                  justifyContent: 'center',
+                  alignItems: 'center',
+                  pt: 0.3
                 }}
               >
-                <Typography sx={{ fontSize: "0.6rem" }}>0</Typography>
+                <Typography sx={{ fontSize: '0.6rem' }}>0</Typography>
               </Box>
             </Stack>
           </Stack>
@@ -133,7 +134,7 @@ export default function Footer() {
         <Grid
           item
           // sx={{ backgroundColor: '#3279CB', minWidth: `calc(100% - 35px)` }}
-          sx={{ backgroundColor: "#3279CB", minWidth: `calc(100% - 235px)` }}
+          sx={{ backgroundColor: '#3279CB', minWidth: 'calc(100% - 235px)' }}
           display="flex"
           justifyContent="flex-end"
         >
@@ -149,16 +150,16 @@ export default function Footer() {
                 display="flex"
                 sx={{
                   px: 0.5,
-                  justifyContent: "center",
-                  alignItems: "center",
-                  cursor: "pointer",
-                  "&:hover": {
-                    background: "#1f8ad2",
-                  },
+                  justifyContent: 'center',
+                  alignItems: 'center',
+                  cursor: 'pointer',
+                  '&:hover': {
+                    background: '#1f8ad2'
+                  }
                 }}
               >
                 <VscCheck fontSize="0.9rem" />
-                <Typography sx={{ ml: 0.5, mt: 0.1, fontSize: "0.6rem" }}>
+                <Typography sx={{ ml: 0.5, mt: 0.1, fontSize: '0.6rem' }}>
                   Prettier
                 </Typography>
               </Box>
@@ -166,14 +167,14 @@ export default function Footer() {
               <Box
                 display="flex"
                 sx={{
-                  justifyContent: "center",
-                  alignItems: "center",
+                  justifyContent: 'center',
+                  alignItems: 'center',
                   py: 0.3,
                   px: 0.5,
-                  cursor: "pointer",
-                  "&:hover": {
-                    background: "#1f8ad2",
-                  },
+                  cursor: 'pointer',
+                  '&:hover': {
+                    background: '#1f8ad2'
+                  }
                 }}
               >
                 <VscFeedback fontSize="0.9rem" />
@@ -181,15 +182,15 @@ export default function Footer() {
               <Box
                 display="flex"
                 sx={{
-                  width: "50%",
-                  justifyContent: "center",
-                  alignItems: "center",
+                  width: '50%',
+                  justifyContent: 'center',
+                  alignItems: 'center',
                   py: 0.3,
                   px: 0.5,
-                  cursor: "pointer",
-                  "&:hover": {
-                    background: "#1f8ad2",
-                  },
+                  cursor: 'pointer',
+                  '&:hover': {
+                    background: '#1f8ad2'
+                  }
                 }}
               >
                 <VscBell fontSize="0.9rem" />
@@ -199,5 +200,5 @@ export default function Footer() {
         </Grid>
       </Grid>
     </Box>
-  );
+  )
 }
