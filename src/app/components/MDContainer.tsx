@@ -33,13 +33,13 @@ function MarkdownLink(props: any) {
 }
 
 function MarkdownImage(props: any) {
-  return (
-    <TableContainer component={Paper}>
-      <Table size="small" aria-label="a dense table">
-        {props.children}
-      </Table>
-    </TableContainer>
-  );
+  if (props.node.tagName === 'img') {
+    console.log(props)
+    return (
+      <img src={require(`../../static/${props.src}`)} alt={props.alt} width="80%" height="80%" />
+    )
+  }
+  return <p>{props.children}</p>
 }
 
 
@@ -132,7 +132,7 @@ export default function MDContainer({ path }: Props) {
           a: MarkdownLink,
           // p: MarkdownParagraph,
           table: MarkdownTable,
-          br: MarkdownImage,
+          img: MarkdownImage,
           thead: TableHead,
           tbody: TableBody,
           th: MarkdownTableCell,
