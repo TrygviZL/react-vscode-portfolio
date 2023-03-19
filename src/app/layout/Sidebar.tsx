@@ -112,7 +112,7 @@ export default function Sidebar ({
                   flexGrow: 0,
                   m: 0.5,
                   color: '#858585',
-                  fontSize: 24,
+                  fontSize: 23,
                   '&:hover': {
                     color: 'white'
                   },
