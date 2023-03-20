@@ -1,6 +1,6 @@
 # 👨‍🎓 Education
 
-`202-2022` [Technical University of Denmark](https://www.dtu.dk)
+`2017-2020` [Technical University of Denmark](https://www.dtu.dk)
 - **Focus areas:** Mathematical modelling and data analysis with focus on medical and biological applications. Topics include programming, fluid mechanics, mass transport, signal processing, statistics and machine learning.
 - **Thesis** (Grade 12/12): Local coupling of dopamine neaurons. Project was in collaboration with the Danish pharmaceutical company H. Lundbeck A/S and was aimed a investigating the mechanism of dopamine in coupling and synchronization of neurons in the midbrain. 
 
