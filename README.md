@@ -16,8 +16,7 @@
 <h3 align="center">react-vscode-portfolio</h3>
 
   <p align="center">
-    A vscode inspired portfolio project
-    <a href="https://github.com/noworneverev/react-vscode-portfolio/issues">Inspired by noworneverev/react-vscode-portfolio</a>
+    A resume and blog site inspired by Visual Studio Code
   </p>
 </div>
 
@@ -25,9 +24,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-The project is inspired by [Visual Studio Code](https://github.com/microsoft/vscode) and [caglarturali.github.io](https://github.com/caglarturali/caglarturali.github.io). The pages of the portfolio are powered by `markdown`, which make them easy to modify or add your own contents.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
+This project is inspired by the portfolio page by [noworneverev](https://github.com/noworneverev/react-vscode-portfolio) which is built on React and resembles the Visual Studio Code text editor. This project adds additionnal features such as folder for blog-posts and support for images, and I will continue to develop this page with additional features.
 
 ### Built With
 
@@ -93,8 +90,7 @@ The project is inspired by [Visual Studio Code](https://github.com/microsoft/vsc
 
 ## Demonstration
 
-- The project is deployed to following two domains, and they are in synchronization.
-  - user site: [https://noworneverev.github.io/](https://noworneverev.github.io/)
+- The project is deployed to following domain:
   - project site: [https://trygvizl.github.io/react-vscode-portfolio/](https://trygvizl.github.io/react-vscode-portfolio/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -105,9 +101,8 @@ The project is inspired by [Visual Studio Code](https://github.com/microsoft/vsc
 - Powered by markdown
 - Dark mode and light mode available
 - Closable tabs
-- Collapsible explorer
+- Collapsable explorer
 - Responsive web design
-- Google Analytics supported
 - Auto-deploy to gh-pages with github actions ready
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -116,29 +111,6 @@ The project is inspired by [Visual Studio Code](https://github.com/microsoft/vsc
 ## License
 
 Distributed under the MIT License. See `LICENSE.md` for more information.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Yan-Ying Liao - [Personal Portfolio](https://noworneverev.github.io/) - n9102125@gmail.com
-
-Project Link: [https://github.com/noworneverev/react-vscode-portfolio](https://github.com/noworneverev/react-vscode-portfolio)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
-* [caglarturali.github.io](https://github.com/caglarturali/caglarturali.github.io)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
