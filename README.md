@@ -110,7 +110,7 @@ This project is inspired by the portfolio page by [noworneverev](https://github.
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.md` for more information.
+Distributed under the MIT License. See `LICENSE.md` for additional information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
