@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.js": "/react-vscode-portfolio/static/js/main.41b2ce61.js",
-    "static/media/favicon.jpg": "/react-vscode-portfolio/static/media/favicon.a58f2f80ae5e61fccf62.jpg",
-    "static/media/screenshot.gif": "/react-vscode-portfolio/static/media/screenshot.749bf45ec0c3c852b75c.gif",
-    "static/media/dark.jpg": "/react-vscode-portfolio/static/media/dark.91e3f3e6a0dfdda591b6.jpg",
-    "static/media/light.jpg": "/react-vscode-portfolio/static/media/light.270b623167943428e4a0.jpg",
-    "static/media/infrastructure.png": "/react-vscode-portfolio/static/media/infrastructure.d82aa50dfc07af2ff505.png",
-    "static/media/logo.svg": "/react-vscode-portfolio/static/media/logo.881c800b32b0df3c3397.svg",
-    "index.html": "/react-vscode-portfolio/index.html",
-    "main.41b2ce61.js.map": "/react-vscode-portfolio/static/js/main.41b2ce61.js.map"
+    "main.js": "/static/js/main.30870b6b.js",
+    "static/media/favicon.jpg": "/static/media/favicon.a58f2f80ae5e61fccf62.jpg",
+    "static/media/screenshot.gif": "/static/media/screenshot.749bf45ec0c3c852b75c.gif",
+    "static/media/dark.jpg": "/static/media/dark.91e3f3e6a0dfdda591b6.jpg",
+    "static/media/light.jpg": "/static/media/light.270b623167943428e4a0.jpg",
+    "static/media/infrastructure.png": "/static/media/infrastructure.d82aa50dfc07af2ff505.png",
+    "static/media/logo.svg": "/static/media/logo.881c800b32b0df3c3397.svg",
+    "index.html": "/index.html",
+    "main.30870b6b.js.map": "/static/js/main.30870b6b.js.map"
   },
   "entrypoints": [
-    "static/js/main.41b2ce61.js"
+    "static/js/main.30870b6b.js"
   ]
 }
