@@ -3,12 +3,7 @@
 <!-- PROJECT SHIELDS -->
 [![gh-pages-shield]][gh-pages-url]
 [![website-shield]][website-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
 
 
 <!-- PROJECT LOGO -->
@@ -22,51 +17,13 @@
 
   <p align="center">
     A vscode inspired portfolio project
-    <br />
-    <a href="https://github.com/noworneverev/react-vscode-portfolio/blob/main/README.md"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://noworneverev.github.io/">View Demo</a>
-    ·
-    <a href="https://github.com/noworneverev/react-vscode-portfolio/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/noworneverev/react-vscode-portfolio/issues">Request Feature</a>
+    <a href="https://github.com/noworneverev/react-vscode-portfolio/issues">Inspired by noworneverev/react-vscode-portfolio</a>
   </p>
 </div>
 
 
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#demonstration">Demonstration</a></li> 
-    <li><a href="#features">Features</a></li>        
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
-
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://noworneverev.github.io/)
 
 The project is inspired by [Visual Studio Code](https://github.com/microsoft/vscode) and [caglarturali.github.io](https://github.com/caglarturali/caglarturali.github.io). The pages of the portfolio are powered by `markdown`, which make them easy to modify or add your own contents.
 
@@ -92,7 +49,7 @@ The project is inspired by [Visual Studio Code](https://github.com/microsoft/vsc
    ```
 2. Install NPM packages
    ```sh
-   npm install
+   yarn install
    ```
 3. Enter your name in `.env.development`
    ```js
@@ -124,23 +81,13 @@ The project is inspired by [Visual Studio Code](https://github.com/microsoft/vsc
     ```
 7. Runs the app in the development mode
    ```sh
-   npm start
+   yarn start
    ```   
 8. Deploy your own portfolio,  
    - modify homepage property in `package.json` 
    ```
    "homepage": "https://{username}.github.io/{repo-name}"
    ```
-   > \* For a [project site](https://pages.github.com/#project-site), that's the format. For a [user site](https://pages.github.com/#user-site), the format is: `https://{username}.github.io`. You can read more about the `homepage` property in the ["GitHub Pages" section](https://create-react-app.dev/docs/deployment/#github-pages) of the `create-react-app` documentation.   
-  
-
-
-   - modify Google Analytic measurement id in `.env.production`
-   ```
-   REACT_APP_NAME=<your_name>
-   REACT_APP_MEASUREMENT_ID=<your_measurement_id>   
-   ```
-
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -148,7 +95,7 @@ The project is inspired by [Visual Studio Code](https://github.com/microsoft/vsc
 
 - The project is deployed to following two domains, and they are in synchronization.
   - user site: [https://noworneverev.github.io/](https://noworneverev.github.io/)
-  - project site: [https://noworneverev.github.io/react-vscode-portfolio/](https://noworneverev.github.io/react-vscode-portfolio/)
+  - project site: [https://trygvizl.github.io/react-vscode-portfolio/](https://trygvizl.github.io/react-vscode-portfolio/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
