@@ -4,13 +4,10 @@ import { VscMarkdown, VscChromeClose } from 'react-icons/vsc'
 import { useNavigate } from 'react-router-dom'
 import { useTheme } from '@mui/material/styles'
 import { Container } from '@mui/system'
+import { type Page } from '../pages/pages'
 
 interface Props {
-  pages: Array<{
-    index: number
-    name: string
-    route: string
-  }>
+  pages: Page[]
   selectedIndex: number
   setSelectedIndex: React.Dispatch<React.SetStateAction<number>>
   currentComponent: string

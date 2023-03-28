@@ -18,12 +18,7 @@ import MDContainer from '../components/MDContainer'
 import Home from '../pages/Home'
 import { pages } from '../pages/pages'
 import { isBrowser } from 'react-device-detect'
-
-interface Page {
-  index: number
-  name: string
-  route: string
-}
+import { type Page } from '../pages/pages'
 
 function initVisiblePageIndexs (pages: Page[]): number[] {
   const tabs = []

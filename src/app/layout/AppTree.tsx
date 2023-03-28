@@ -7,19 +7,10 @@ import { useLocation, useNavigate } from 'react-router-dom'
 import { useEffect } from 'react'
 import { useTheme } from '@mui/material/styles'
 import { VscMarkdown } from 'react-icons/vsc'
-
-interface Page {
-  index: number
-  name: string
-  route: string
-}
+import { type Page } from '../pages/pages'
 
 interface Props {
-  pages: Array<{
-    index: number
-    name: string
-    route: string
-  }>
+  pages: Page[]
   selectedIndex: number
   setSelectedIndex: React.Dispatch<React.SetStateAction<number>>
   currentComponent: string

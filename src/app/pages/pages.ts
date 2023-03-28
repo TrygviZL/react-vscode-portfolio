@@ -1,4 +1,10 @@
-export const pages = [
+export interface Page {
+  index: number
+  name: string
+  route: string
+}
+
+export const pages: Page[] = [
   { index: 0, name: 'overview.md', route: '/overview' },
   { index: 1, name: 'skills.md', route: '/skills' },
   { index: 2, name: 'experience.md', route: '/experience' },
