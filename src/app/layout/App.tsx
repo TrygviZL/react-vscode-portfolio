@@ -16,14 +16,18 @@ import { Routes, Route, useNavigate, Navigate } from 'react-router-dom'
 import AppButtons from './AppButtons'
 import MDContainer from '../components/MDContainer'
 import Home from '../pages/Home'
-import { pages } from '../pages/pages'
+import { type PageFolders, type Page, pages } from '../pages/pages'
 import { isBrowser } from 'react-device-detect'
-import { type Page } from '../pages/pages'
 
-function initVisiblePageIndexs (pages: Page[]): number[] {
+export function getAllPages (pages: PageFolders): Page[] {
+  return Object.values(pages).reduce((acc, curr) => [...acc, ...curr])
+}
+
+function initVisiblePageIndexs (pages: PageFolders): number[] {
   const tabs = []
-  for (let i = 0; i < pages.length; i++) {
-    const page = pages[i]
+  const allPages = getAllPages(pages)
+  for (let i = 0; i < allPages.length; i++) {
+    const page = allPages[i]
     tabs.push(page.index)
   }
   return tabs
@@ -37,8 +41,9 @@ export default function App (): ReactElement {
   const [visiblePageIndexs, setVisiblePageIndexs] = useState(
     initVisiblePageIndexs(pages)
   )
+  const allPages = getAllPages(pages)
   const [darkMode, setDarkMode] = useState(false)
-  const [visiblePages, setVisiblePages] = useState(pages)
+  const [visiblePages, setVisiblePages] = useState(allPages)
   const paletteType = darkMode ? 'dark' : 'light'
   const theme = createTheme({
     palette: {
@@ -83,7 +88,7 @@ export default function App (): ReactElement {
     const newPages = []
 
     for (const index of visiblePageIndexs) {
-      const page = pages.find((x) => x.index === index)
+      const page = allPages.find((x) => x.index === index)
       if (page != null) newPages.push(page)
     }
     setVisiblePages(newPages)
@@ -96,7 +101,7 @@ export default function App (): ReactElement {
       deletedIndex > Math.max(...visiblePageIndexs)
     ) {
       setSelectedIndex(Math.max(...visiblePageIndexs))
-      const page = pages.find(
+      const page = allPages.find(
         (x) => x.index === Math.max(...visiblePageIndexs)
       )
       if (page != null) navigate(page.route)
@@ -105,7 +110,7 @@ export default function App (): ReactElement {
       deletedIndex < Math.max(...visiblePageIndexs)
     ) {
       setSelectedIndex(Math.min(...visiblePageIndexs))
-      const page = pages.find(
+      const page = allPages.find(
         (x) => x.index === Math.min(...visiblePageIndexs)
       )
       if (page != null) navigate(page.route)
@@ -192,7 +197,7 @@ export default function App (): ReactElement {
                     path="/"
                     element={<Home setSelectedIndex={setSelectedIndex} />}
                   />
-                  {pages.map(({ index, name, route }) => (
+                  {allPages.map(({ index, name, route }) => (
                     <Route
                       key={index}
                       path={route}

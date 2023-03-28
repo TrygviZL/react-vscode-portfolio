@@ -7,10 +7,11 @@ import { useLocation, useNavigate } from 'react-router-dom'
 import { useEffect } from 'react'
 import { useTheme } from '@mui/material/styles'
 import { VscMarkdown } from 'react-icons/vsc'
-import { type Page } from '../pages/pages'
+import { type Page, type PageFolders } from '../pages/pages'
+import { getAllPages } from './App'
 
 interface Props {
-  pages: Page[]
+  pages: PageFolders
   selectedIndex: number
   setSelectedIndex: React.Dispatch<React.SetStateAction<number>>
   currentComponent: string
@@ -33,8 +34,9 @@ export default function AppTree ({
   // const [selectedIndex, setSelectedIndex] = useState(-1);
   const { pathname } = useLocation()
 
+  const allPages = getAllPages(pages)
   // eslint-disable-next-line
-  const page: Page = pages.find((x) => x.route === pathname)!
+  const page: Page = allPages.find((x) => x.route === pathname)!
 
   useEffect(() => {
     // eslint-disable-next-line
@@ -67,19 +69,21 @@ export default function AppTree ({
       defaultCollapseIcon={<ExpandMoreIcon />}
       defaultExpandIcon={<ChevronRightIcon />}
       sx={{ minWidth: 220 }}
-      defaultExpanded={['-1', '-2']}
+      defaultExpanded={Object.keys(pages)}
       // sx={{ height: 240, flexGrow: 1, maxWidth: 400, overflowY: 'auto' }}
     >
+    {Object.entries(pages).map(pageType => (
       <TreeItem
-        nodeId="-1"
-        label="About"
+        nodeId={pageType[0]}
+        key={pageType[0]}
+        label={pageType[0]}
         color="#bdc3cf"
         onClick={() => {
           navigate('/')
           setSelectedIndex(-1)
         }}
       >
-        {pages.map(({ index, name, route }) => (
+        {pageType[1].map(({ index, name, route }) => (
           <TreeItem
             key={index}
             nodeId={index.toString()}
@@ -104,40 +108,7 @@ export default function AppTree ({
           />
         ))}
       </TreeItem>
-      <TreeItem
-        nodeId="-2"
-        label="Blog Posts"
-        color="#bdc3cf"
-        onClick={() => {
-          navigate('/')
-          setSelectedIndex(-2)
-        }}
-      >
-        {pages.map(({ index, name, route }) => (
-          <TreeItem
-            key={index}
-            nodeId={index.toString()}
-            label={name}
-            sx={{
-              color: renderTreeItemColor(index),
-              backgroundColor: renderTreeItemBgColor(index),
-              '&& .Mui-selected': {
-                backgroundColor: renderTreeItemBgColor(index)
-              }
-            }}
-            icon={<VscMarkdown color="#6997d5" />}
-            onClick={() => {
-              if (!visiblePageIndexs.includes(index)) {
-                const newIndexs = [...visiblePageIndexs, index]
-                setVisiblePageIndexs(newIndexs)
-              }
-              navigate(route)
-              setSelectedIndex(index)
-              setCurrentComponent('tree')
-            }}
-          />
-        ))}
-      </TreeItem>
+    ))}
     </TreeView>
   )
 }
