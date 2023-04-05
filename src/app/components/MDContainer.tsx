@@ -1,5 +1,4 @@
 import {
-  Chip,
   Container,
   Divider,
   Link,
@@ -19,6 +18,8 @@ import { useLocation } from 'react-router-dom'
 import rehypeRaw from 'rehype-raw'
 import remarkBreaks from 'remark-breaks'
 import remarkGfm from 'remark-gfm'
+import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter'
+import { oneDark } from 'react-syntax-highlighter/dist/esm/styles/prism'
 
 interface Props {
   path: string
@@ -37,7 +38,7 @@ function MarkdownImage (props: any): ReactElement {
   if (props.node.tagName === 'img') {
     console.log(props)
     return (
-      <img src={require(`../../static/${image}`)} alt={props.alt} width="80%" height="80%" />
+      <img src={require(`../../static/${image}`)} alt={props.alt} width="100%" height="100%" />
     )
   }
   return <p>{props.children}</p>
@@ -62,8 +63,17 @@ function MarkdownTableCell (props: { children: ReactNode }): ReactElement {
   )
 }
 
-function MarkdownCode (props: { children: ReactNode }): ReactElement {
-  return <Chip size="small" label={props.children?.toString()} />
+function MarkdownCode (props: any): ReactElement {
+  console.log(props)
+  const language = props.className.split('-')[1]
+  return <SyntaxHighlighter
+    language={language}
+    style={oneDark}
+    PreTag="div"
+    showLineNumbers={true}
+    >
+    {props.children}
+  </SyntaxHighlighter>
 }
 
 function MarkdownH1 (props: { children: ReactNode }): ReactElement {
