@@ -37,7 +37,6 @@ function MarkdownLink (props: any): ReactElement {
 function MarkdownImage (props: any): ReactElement {
   const image: string = props.src
   if (props.node.tagName === 'img') {
-    console.log(props)
     return (
       <img src={require(`../../static/${image}`)} alt={props.alt} width="100%" height="100%" />
     )
@@ -65,8 +64,6 @@ function MarkdownTableCell (props: { children: ReactNode }): ReactElement {
 }
 
 function MarkdownCode (props: any): ReactElement {
-  console.log(props)
-
   // eslint-disable-next-line @typescript-eslint/strict-boolean-expressions
   if (!props.className) {
     return <Chip size="small" label={props.children?.toString()} />
