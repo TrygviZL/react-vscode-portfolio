@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/static/js/main.5178c902.js",
+    "main.js": "/static/js/main.3874f993.js",
     "static/media/favicon.jpg": "/static/media/favicon.a58f2f80ae5e61fccf62.jpg",
     "static/media/screenshot.gif": "/static/media/screenshot.749bf45ec0c3c852b75c.gif",
-    "static/media/vim-setup.PNG": "/static/media/vim-setup.e2fadc605fedccde5cc6.PNG",
+    "static/media/vim-setup.PNG": "/static/media/vim-setup.f6340b0faff8a966d576.PNG",
     "static/media/dark.jpg": "/static/media/dark.91e3f3e6a0dfdda591b6.jpg",
     "static/media/light.jpg": "/static/media/light.270b623167943428e4a0.jpg",
     "static/media/infrastructure.png": "/static/media/infrastructure.d82aa50dfc07af2ff505.png",
     "static/media/logo.svg": "/static/media/logo.881c800b32b0df3c3397.svg",
     "index.html": "/index.html",
-    "main.5178c902.js.map": "/static/js/main.5178c902.js.map"
+    "main.3874f993.js.map": "/static/js/main.3874f993.js.map"
   },
   "entrypoints": [
-    "static/js/main.5178c902.js"
+    "static/js/main.3874f993.js"
   ]
 }
