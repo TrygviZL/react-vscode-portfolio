@@ -7,13 +7,13 @@ As more and more companies move towards being data-centric, the need for organiz
 
 ## Experience
 
-**Data Engineer** @ [H. Lundbeck A/S](https://www.lundbeck.com) _(Aug 2020 - Current)_
+`Aug 2020 - Current`- **Data Engineer** @ [H. Lundbeck A/S](https://www.lundbeck.com)
 As a Data Platform Engineer I am responsible for maintaining data tooling and infrastructure to suppor the business in their data needs. 
-Technologies: Snowflake, dbt, Snowflake, Terraform, Typescript
+Technologies: Snowflake, dbt, Snowflake, Terraform, Typescript.
 
 &nbsp;
 
-**Data Engineering Graduate** @ [H. Lundbeck A/S](https://www.lundbeck.com) _(Sep 2020 - Aug 2022)_
+`Sep 2020 - Aug 2022` - **Data Engineering Graduate** @ [H. Lundbeck A/S](https://www.lundbeck.com)
 Graduate at the Business Intelligence and Advanced Analytics department in a role as a Cloud Data Engineer.
 As a data engineer, my primary responsibilities are:
 - Architecting and development of data platform on AWS 
@@ -26,15 +26,15 @@ Technologies: S3, Lambda, Kinesis, Athena, StepFunctions, CDK, SQS, IoT-Core, Sn
 
 &nbsp;
 
-**Bioinformatician / Computational Biology** @ [H. Lundbeck A/S](https://www.lundbeck.com) _(Mar 2020 - Sep 2020)_
+`Mar 2020 - Sep 2020` - **Bioinformatician / Computational Biology** @ [H. Lundbeck A/S](https://www.lundbeck.com) 
 Supporting early drug development using data analysis and modelling methods. I was tasked with developing mechanistic and stochastic models to simulate the interaction between drug and target to predict predict future results and gain additional insight from experiments. My tasks include:
 - Mathematical modelling using ODEs and Stochastic Models (Monte Carlo Simulation) to simulate drug-target interaction
 - Analysis and prediction of experimental results
-- Support planning of clinical studies based on data-analysis and simulation)
+- Support planning of clinical studies based on data-analysis and simulation
 
 ## Education
 
-`202-2022` [Technical University of Denmark](https://www.dtu.dk)
+`2017-2020` [Technical University of Denmark](https://www.dtu.dk)
 - **Focus areas:** Mathematical modelling and data analysis with focus on medical and biological applications. Topics include programming, fluid mechanics, mass transport, signal processing, statistics and machine learning.
 - **Thesis** (Grade 12/12): Local coupling of dopamine neaurons. Project was in collaboration with the Danish pharmaceutical company H. Lundbeck A/S and was aimed a investigating the mechanism of dopamine in coupling and synchronization of neurons in the midbrain. 
 

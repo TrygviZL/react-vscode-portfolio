@@ -66,7 +66,11 @@ function MarkdownTableCell (props: { children: ReactNode }): ReactElement {
 
 function MarkdownCode (props: any): ReactElement {
   console.log(props)
-  if (!props.className) return <Chip size="small" label={props.children?.toString()} />
+
+  // eslint-disable-next-line @typescript-eslint/strict-boolean-expressions
+  if (!props.className) {
+    return <Chip size="small" label={props.children?.toString()} />
+  }
 
   const language = props.className.split('-')[1]
   return <SyntaxHighlighter
