@@ -38,7 +38,7 @@ function MarkdownImage (props: any): ReactElement {
   const image: string = props.src
   if (props.node.tagName === 'img') {
     return (
-      <img src={require(`../../static/${image}`)} alt={props.alt} width="100%" height="100%" />
+      <img src={require(`../../static/${image}`)} alt={props.alt} width="80%" height="80%" />
     )
   }
   return <p>{props.children}</p>
@@ -70,14 +70,18 @@ function MarkdownCode (props: any): ReactElement {
   }
 
   const language = props.className.split('-')[1]
-  return <SyntaxHighlighter
-    language={language}
-    style={oneDark}
-    PreTag="div"
-    showLineNumbers={true}
-    >
-    {props.children}
-  </SyntaxHighlighter>
+  return (
+    <div style={{ width: '80%' }}>
+      <SyntaxHighlighter
+        language={language}
+        style={oneDark}
+        PreTag="div"
+        showLineNumbers={true}
+      >
+        {props.children}
+      </SyntaxHighlighter>
+    </div>
+  )
 }
 
 function MarkdownH1 (props: { children: ReactNode }): ReactElement {
