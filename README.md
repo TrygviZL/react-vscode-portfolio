@@ -31,6 +31,7 @@ This project is inspired by the portfolio page by [noworneverev](https://github.
 * [React.js](https://reactjs.org/)
 * [Material UI](https://github.com/mui/material-ui)
 * [react-markdown](https://github.com/remarkjs/react-markdown)
+* [react-syntax-highlighter](https://github.com/react-syntax-highlighter/react-syntax-highlighter)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -71,7 +72,7 @@ This project is inspired by the portfolio page by [noworneverev](https://github.
       {
         index: 0,
         title: "Find me on Github",
-        href: "https://github.com/noworneverev",
+        href: "https://github.com/trygvizl",
         icon: <FaGithub />,
       },
     ];
