@@ -16,6 +16,7 @@ export const pages: PageFolders = {
   ],
   blog: [
     { index: 6, name: 'my-vim-setup.md', route: '/my-vim-setup' },
-    { index: 7, name: 'code-now-commit-later.md', route: '/code-now-commit-later' }
+    { index: 7, name: 'code-now-commit-later.md', route: '/code-now-commit-later' },
+    { index: 8, name: 'visualize-before-ML.md', route: '/visualize-before-ML' }
   ]
 }
